@@ -12,7 +12,7 @@ from sklearn.preprocessing import LabelEncoder
 
 required_columns = ['TIME', 'UID', 'CALL TYPE', 'NET CALL TIME', 'TYPE']
 
-st.title("Call Centre Attendant Prediction")
+st.title("BP PCM v.2.1")
 st.write(f"Upload the CSV file with {','.join(required_columns)} columns for predictions:")
 
 def time_string_to_secs(time_string):
